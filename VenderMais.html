@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>atividade Vender Mais </title>
     <h1>Seus produtos</h1>
-    <div id="vendaprond"></div>
+    <div id="vendaprod"></div>
     <script>
         let numprod;
         let produto;
@@ -15,15 +15,15 @@
         let resposta = prompt("VC deseja vender algo? \n1-sim \n2-não");
 
         while (resposta =="1") {
-            numprod = prompt("digite o código do produto");
+            numprod = prompt("digite o código do numprod");
             produto = prompt("digite o nome do produto"); 
-            valor = prompt("digite o valor do produto"); 
+            valor = prompt("digite o valor do valor"); 
             document.getElementById("vendaprod").innerHTML += "numero" + numprod + "</br>"
-
             + "produto:" + produto + "</br>"
             + "valor:" + valor + "</br>"
             +"---------------------" + "</br>"
-            reposta = prompt("Vc deseja mais algum  produto? \n1-sim\ n2-não")
+
+            resposta = prompt("Vc deseja mais algum  produto? \n1-sim \n2-não")
              
         }
     </script>
